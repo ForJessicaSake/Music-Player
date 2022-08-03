@@ -1,18 +1,23 @@
 import UseFetch from './UseFetch'
+import {useEffect} from 'react'
 import { RiPlayLine, RiPauseCircleLine } from 'react-icons/ri';
-import image from './weekend.jpg'
+import image from './weekend.jpg';
+import Aos from  'aos';
+import "aos/dist/aos.css";
 
 
 function Download() {
     const { playlists, isPending, error, handleClickAfro, handleClickPop, handleClickRB } = UseFetch("http://localhost:7000/playlists")
 
-
+useEffect(()=>{
+    Aos.init({duration:1800});
+},[]);
     return (
         <header className='download-container'>
 
-            <main className='collection-container'>
+            <main className='collection-container' data-aos="fade-up" data-aos-offset="200" data-aos-easing="linear">
                 <section className='hero'>
-                    <div className='hero-text'>
+                    <div className='hero-text' >
                         <h1>Blinding Lights</h1>
                         <h4>The Weekend</h4>
                         <p>After silence, that which comes nearest to expressing the inexperessible is music.</p>
@@ -52,9 +57,9 @@ function Download() {
                 </section>
 
             </main>
-            <section data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <section>
                 <h4 className='download-heading'>Downloads</h4>
-                {isPending && <h4>Loading...</h4>}
+                {isPending && <h1 style={{marginLeft: '0.1rem',marginTop: '3rem'}}>...</h1>}
                 {error && <p>{error}</p>}
                 {playlists && playlists.map((playlist) => (
                     <section className="download-preview" key={playlist.id}>

@@ -130,7 +130,6 @@ body {
 
 .download-preview:hover {
     transform: scale(1, 1.1);
-    /* transform: translateX(2rem); */
     transition: 0.4s;
     background-color: #f9f8fd;
 }
@@ -138,7 +137,8 @@ body {
 .collection {
     display: flex;
     justify-content: space-between;
-    width: 40rem
+    width: 38rem;
+    cursor: pointer;
 }
 
 .one {
@@ -202,10 +202,16 @@ body {
     border-radius: 50%;
 }
 
+.hero-image:hover {
+    transform: scale(1, 1.03);
+    transition: 1s;
+}
+
 .hero {
     display: flex;
     justify-content: space-between;
-    margin: 0% 15% 0% 0%
+    margin: 0% 20% 0% 0%;
+    cursor: pointer;
 }
 
 .hero-text {
