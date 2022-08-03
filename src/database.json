@@ -1,0 +1,57 @@
+{
+    "playlists": [{
+            "id": 1,
+            "title": "blinding Light",
+            "music": "",
+            "artiste": "The Weekend",
+            "coverimage": "Images/weekend.jpg",
+            "genre": "R&B"
+
+        },
+
+        {
+            "id": 2,
+            "title": "intentions",
+            "music": "",
+            "artiste": "Justin Bieber",
+            "coverimage": "Images/justinbieber.jpg",
+            "genre": "R&B"
+        },
+        {
+            "id": 3,
+            "title": "Bury a friend",
+            "music": "",
+            "artiste": "Billie Eilish",
+            "coverimage": "Images/buryafriend.jpg",
+            "genre": "Pop"
+        },
+        {
+            "id": 4,
+            "title": "Live your life",
+            "music": "",
+            "artiste": "TI ft Rihanna",
+            "coverimage": "Images/liveyourlife.jpg",
+            "genre": "Pop"
+
+        },
+
+        {
+            "id": 5,
+            "title": "Mad over you",
+            "music": "",
+            "artiste": "Runtown",
+            "coverimage": "Images/madoveryou.jpg",
+            "genre": "Afrobeats"
+
+        }, {
+            "id": 6,
+            "title": "Uptown Funk ",
+            "music": "",
+            "artiste": "Mark Ronson",
+            "coverimage": "Images/uptownfunk.jpg",
+            "genre": "Pop"
+
+        }
+
+    ]
+}
