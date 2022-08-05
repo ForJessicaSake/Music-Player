@@ -38,7 +38,7 @@
             "title": "Thank you next",
             "music": "/songs/ThankUNext.mp3",
             "artiste": "Ariana Grande",
-            "coverimage": "Images/image0.jpeg",
+            "coverimage": "Images/ariana.jpeg",
             "genre": "Pop"
 
         }, {
@@ -46,7 +46,7 @@
             "title": "Controlla",
             "music": "/songs/Controlla.mp3",
             "artiste": "Drake",
-            "coverimage": "Images/image1.jpeg",
+            "coverimage": "Images/drake.jpeg",
             "genre": "R&B"
 
         }
