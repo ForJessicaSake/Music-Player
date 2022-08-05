@@ -7,7 +7,6 @@ function UseFetch(url) {
     const [error, setError] = useState(null);
     const [filteredPlaylists, setFilteredPlaylists] = useState(null);
 
-    const baseUrl = process.env.REACT_APP_API_URL
 
     const filtered = (genre) => {
         const newPlaylist = playlists.filter((playlist) => {
@@ -20,7 +19,7 @@ function UseFetch(url) {
     }
 
     useEffect(() => {
-        fetch(`${baseUrl}${url}`)
+        fetch(url)
             .then((response) => {
                 if (!response.ok) {
                     throw new Error('could not fetch data from the resource')
@@ -36,7 +35,7 @@ function UseFetch(url) {
             }
             )
 
-    }, [url, filteredPlaylists, baseUrl])
+    }, [url, filteredPlaylists])
 
     return { playlists, isPending, error, filtered, filteredPlaylists, all }
 }

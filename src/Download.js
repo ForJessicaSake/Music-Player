@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 
 function Download() {
-    const { playlists, isPending, error, filtered, filteredPlaylists, all} = UseFetch("/playlists")
+    const { playlists, isPending, error, filtered, filteredPlaylists, all } = UseFetch("https://jessica-playlist.herokuapp.com/playlists")
 
     useEffect(() => {
         Aos.init({ duration: 1700 });
