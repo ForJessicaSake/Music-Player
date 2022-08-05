@@ -2,7 +2,7 @@
     "playlists": [{
             "id": 1,
             "title": "blinding Light",
-            "music": "",
+            "music": "/songs/BlindingLights.mp3",
             "artiste": "The Weekend",
             "coverimage": "Images/weekend.jpg",
             "genre": "R&B"
@@ -12,44 +12,42 @@
         {
             "id": 2,
             "title": "intentions",
-            "music": "",
+            "music": "/songs/Intentions.mp3",
             "artiste": "Justin Bieber",
             "coverimage": "Images/justinbieber.jpg",
             "genre": "R&B"
         },
         {
             "id": 3,
-            "title": "Bury a friend",
-            "music": "",
-            "artiste": "Billie Eilish",
-            "coverimage": "Images/buryafriend.jpg",
-            "genre": "Pop"
-        },
-        {
+            "title": "Too good",
+            "music": "/songs/Toogood.mp3",
+            "artiste": "Drake ft Riri",
+            "coverimage": "Images/riri.JPG",
+            "genre": "R&B"
+
+        }, {
             "id": 4,
-            "title": "Live your life",
-            "music": "",
-            "artiste": "TI ft Rihanna",
-            "coverimage": "Images/liveyourlife.jpg",
+            "title": "Run the world",
+            "music": "/songs/RunTheWorld.mp3",
+            "artiste": "Beyonce",
+            "coverimage": "Images/beyonce.jpg",
             "genre": "Pop"
 
-        },
-
-        {
+        }, {
             "id": 5,
-            "title": "Mad over you",
-            "music": "",
-            "artiste": "Runtown",
-            "coverimage": "Images/madoveryou.jpg",
-            "genre": "Afrobeats"
+            "title": "Thank you next",
+            "music": "/songs/ThankUNext.mp3",
+            "artiste": "Ariana Grande",
+            "coverimage": "Images/riri.JPG",
+            "genre": "Pop"
 
         }, {
             "id": 6,
-            "title": "Uptown Funk ",
-            "music": "",
-            "artiste": "Mark Ronson",
-            "coverimage": "Images/uptownfunk.jpg",
-            "genre": "Pop"
+            "title": "Controlla",
+            "music": "/songs/Controlla.mp3",
+            "artiste": "Drake",
+            "coverimage": "Images/riri.JPG",
+            "genre": "R&B"
 
         }
 

@@ -1,6 +1,6 @@
 import { RiUser3Line, RiHeartLine, RiTwitterLine, RiPlayLine, RiPauseCircleLine } from 'react-icons/ri';
 import { AiOutlineSearch, AiOutlineInstagram } from 'react-icons/ai'
-import { IoMusicalNotesOutline, IoFolder } from 'react-icons/io5'
+import { IoMusicalNotesOutline, IoFolder } from 'react-icons/io5';
 
 function Sidebar() {
 
