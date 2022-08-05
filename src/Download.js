@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 
 function Download() {
-    const { playlists, isPending, error, filtered, filteredPlaylists} = UseFetch("http://localhost:7000/playlists")
+    const { playlists, isPending, error, filtered, filteredPlaylists, all} = UseFetch("/playlists")
 
     useEffect(() => {
         Aos.init({ duration: 1700 });
@@ -47,7 +47,7 @@ function Download() {
                         <h4>R&B</h4>
                         <h4>music</h4>
                         <p>303 songs</p>
-                    </section><section className="box three">
+                    </section><section className="box three" onClick={all}>
                         <h1>03</h1>
                         <h4>All</h4>
                         <h4>music</h4>
@@ -68,7 +68,7 @@ function Download() {
 
             <section className='download'>
                 <h4 className='download-heading'>Downloads</h4>
-                {isPending && <h1 style={{ marginLeft: '0.8rem', marginTop: '3rem'}}>...</h1>}
+                {isPending && <h1 style={{ marginLeft: '2.5rem', marginTop: '3rem'}}>...</h1>}
                 {error && <p>{error}</p>}
                 {filteredPlaylists ? filteredPlaylists.map((playlist) => (
                     <section className="download-preview" key={playlist.id}>

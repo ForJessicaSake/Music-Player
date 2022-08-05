@@ -1,4 +1,4 @@
-import { RiUser3Line, RiHeartLine, RiTwitterLine, RiPlayLine, RiPauseCircleLine } from 'react-icons/ri';
+import { RiHeartLine, RiTwitterLine, RiPlayLine} from 'react-icons/ri';
 import { AiOutlineSearch, AiOutlineInstagram } from 'react-icons/ai'
 import { IoMusicalNotesOutline, IoFolder } from 'react-icons/io5';
 
